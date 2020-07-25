@@ -1,0 +1,82 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+.topSec{
+    height: 30rem;
+    background-image: url("../img/codeimg.jpg");
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+}
+#bgc{
+    height: 30rem;
+    background-color: black;
+    opacity: 0.4;
+    margin-top: -30rem;
+}
+#myId{
+    padding-top: 6rem;
+    padding-left: 5rem;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+#allC{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    height: 20rem;
+    width: 25rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+#c1{
+    background-color: rgba(236, 231, 231, 0.973);
+}
+#c2{
+    background-color: rgba(236, 231, 231, 0.973);
+}
+#c3{
+    background-color: rgba(236, 231, 231, 0.973);
+}
+marquee{
+    background-color: rgb(61, 60, 60);
+    color: white;
+    margin-top: 1rem;
+}
+.cardh{
+    text-decoration: overline;
+    padding: 1rem;
+}
+.cardT{
+    padding: 1rem;
+    text-align: justify;
+}
+footer{
+    height: 4rem;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+@media (max-width:1200px) {
+    body{
+        background-color: black;
+    }
+    #allC{
+        flex-direction: column;
+    }
+    .card{
+        width: unset;
+    }
+    #c2{
+        margin-left: unset;
+    }
+    #c3{
+        margin-left: unset;
+    }
+}
